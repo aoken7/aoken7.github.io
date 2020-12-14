@@ -1,1 +1,35 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Aoken's Note</title><link>https://aoken7.github.io/posts/</link><description>Recent content in Posts on Aoken's Note</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 11 Dec 2020 12:00:00 +0900</lastBuildDate><atom:link href="https://aoken7.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Powed By Hugo</title><link>https://aoken7.github.io/posts/creating-a-new-theme/</link><pubDate>Fri, 11 Dec 2020 12:00:00 +0900</pubDate><guid>https://aoken7.github.io/posts/creating-a-new-theme/</guid><description/><content type="html"></content></item></channel></rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Aoken's Note</title><link>https://aoken7.github.io/posts/</link><description>Recent content in Posts on Aoken's Note</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 14 Dec 2020 12:00:00 +0900</lastBuildDate><atom:link href="https://aoken7.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>このブログについて</title><link>https://aoken7.github.io/posts/%E3%81%93%E3%81%AE%E3%83%96%E3%83%AD%E3%82%B0%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link><pubDate>Mon, 14 Dec 2020 12:00:00 +0900</pubDate><guid>https://aoken7.github.io/posts/%E3%81%93%E3%81%AE%E3%83%96%E3%83%AD%E3%82%B0%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</guid><description>はじめに あおけんと申します。2020年12月現在情報系の大学で学部生をしています。 趣味としてAtCoderを少しやってますがこれと言ってぱっとしない人間です。
+文書を書くことに苦手意識が強く、記事を書いたことやブログを書いたことがほとんどないので拙い文章になってるかもしれません、読みにくかったらごめんなさい。
+経緯 説明が下手 記事を書こうと思った一番大きな理由は物事を説明するのが下手だからです。
+人間社会で生きていく上で説明が下手なのは致命的です。今後ゼミでの活動や、卒業論文、就職活動などなど色々な場面で自身の考えを言葉で表す機会があります。 そのため、記事の執筆を通して物事を言葉で説明する力を養おうというのです。
+知識の定着 記事を書く2つ目の理由です。学習においてアウトプットは重要です。競プロなのでアルゴリズムを学んでも頭の中でなんとなく理解している事が多く、定着していないのではないかと思っています。そのため、記事としてアウトプットすることで知識の定着を図ろうと思います。
+このブログの技術的なこと このサイトは静的サイトジェネレータのHugoで作成しておりGitHubにホスティングすることで公開しています。Hugoは記事をMarkdownで記述することができ、ビルドするとHTMLファイルを生成してくれます。
+また様々なテーマが公開されており簡単にリッチなウェブサイトを作成できます。
+Hugo Themes ビルドに関してはGitHub Actionを利用することでGitHubに変更をコミットするだけで自動でビルドしデプロイしてくれます。</description><content type="html"><![CDATA[<h2 id="はじめに">はじめに</h2>
+<p>あおけんと申します。2020年12月現在情報系の大学で学部生をしています。
+趣味としてAtCoderを少しやってますがこれと言ってぱっとしない人間です。<br>
+文書を書くことに苦手意識が強く、記事を書いたことやブログを書いたことがほとんどないので拙い文章になってるかもしれません、読みにくかったらごめんなさい。</p>
+<h2 id="経緯">経緯</h2>
+<ul>
+<li><strong>説明が下手</strong></li>
+</ul>
+<figure>
+    <img src="/images/kaiji.png"
+         alt="image"/> 
+</figure>
+
+<p>記事を書こうと思った一番大きな理由は物事を説明するのが下手だからです。<br>
+人間社会で生きていく上で説明が下手なのは致命的です。今後ゼミでの活動や、卒業論文、就職活動などなど色々な場面で自身の考えを言葉で表す機会があります。
+そのため、記事の執筆を通して物事を言葉で説明する力を養おうというのです。</p>
+<ul>
+<li><strong>知識の定着</strong></li>
+</ul>
+<p>記事を書く2つ目の理由です。学習においてアウトプットは重要です。競プロなのでアルゴリズムを学んでも頭の中でなんとなく理解している事が多く、定着していないのではないかと思っています。そのため、記事としてアウトプットすることで知識の定着を図ろうと思います。</p>
+<h2 id="このブログの技術的なこと">このブログの技術的なこと</h2>
+<p>このサイトは静的サイトジェネレータのHugoで作成しておりGitHubにホスティングすることで公開しています。Hugoは記事をMarkdownで記述することができ、ビルドするとHTMLファイルを生成してくれます。<br>
+また様々なテーマが公開されており簡単にリッチなウェブサイトを作成できます。</p>
+<ul>
+<li><a href="https://themes.gohugo.io/">Hugo Themes</a></li>
+</ul>
+<p>ビルドに関してはGitHub Actionを利用することでGitHubに変更をコミットするだけで自動でビルドしデプロイしてくれます。</p>
+]]></content></item></channel></rss>
