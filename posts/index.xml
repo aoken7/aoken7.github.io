@@ -1,4 +1,36 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Aoken's Note</title><link>https://aoken7.github.io/posts/</link><description>Recent content in Posts on Aoken's Note</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 14 Dec 2020 18:19:34 +0900</lastBuildDate><atom:link href="https://aoken7.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>マイクラで4bitCPU</title><link>https://aoken7.github.io/posts/%E3%83%9E%E3%82%A4%E3%82%AF%E3%83%A9%E3%81%A74bitcpu/</link><pubDate>Mon, 14 Dec 2020 18:19:34 +0900</pubDate><guid>https://aoken7.github.io/posts/%E3%83%9E%E3%82%A4%E3%82%AF%E3%83%A9%E3%81%A74bitcpu/</guid><description>この記事は、大阪工業大学 Advent Calendar 2020の16日目の記事です。
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Aoken's Note</title><link>https://aoken7.github.io/posts/</link><description>Recent content in Posts on Aoken's Note</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 20 Dec 2020 00:04:50 +0900</lastBuildDate><atom:link href="https://aoken7.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>ABC186</title><link>https://aoken7.github.io/posts/abc186/</link><pubDate>Sun, 20 Dec 2020 00:04:50 +0900</pubDate><guid>https://aoken7.github.io/posts/abc186/</guid><description>A-Brick NをWで割るだけ。少数は切り捨てる。
+B-Blocks_on_Grid 一番小さい値ですべての値を引いた合計が答え。
+pythonでやると簡単にできそう。
+C-Unlucky_7 c++ではstd::octを使うと8進数に変換出来るらしい。調べて知った。
+1からNまで7を含むかを判定すればいい。
+D-Sum_of_difference あらかじめAに関して累積和をとっておけばいい。
+ソートすれば良いのに気づかずにだいぶ時間を使ってしまった。
+E-Throne 解けなかった。 modだろうとは思ったけど解法が思いつかなかった。
+一周ごとにあまりの値をsetで管理して、同じあまりが2度出たら永遠に巡回するので解なしとする実装をしたけど計算が爆発してしまった。（それはそう）
+中国余剰定理名前しか知らなかったので要復習。
+まとめ D問題をひと目見て貪欲だと判断出来たのでヨシ！
+欲を言うともう少し早く解きたかった。
+あとACLに含まれてるアルゴリズムは一通り勉強しようと思いましたん。</description><content type="html"><![CDATA[<h2 id="a-brick">A-Brick</h2>
+<p>NをWで割るだけ。少数は切り捨てる。</p>
+<h2 id="b-blocks_on_grid">B-Blocks_on_Grid</h2>
+<p>一番小さい値ですべての値を引いた合計が答え。<br>
+pythonでやると簡単にできそう。</p>
+<h2 id="c-unlucky_7">C-Unlucky_7</h2>
+<p>c++ではstd::octを使うと8進数に変換出来るらしい。調べて知った。<br>
+1からNまで7を含むかを判定すればいい。</p>
+<h2 id="d-sum_of_difference">D-Sum_of_difference</h2>
+<p>あらかじめAに関して累積和をとっておけばいい。<br>
+ソートすれば良いのに気づかずにだいぶ時間を使ってしまった。</p>
+<h2 id="e-throne">E-Throne</h2>
+<p>解けなかった。
+modだろうとは思ったけど解法が思いつかなかった。<br>
+一周ごとにあまりの値をsetで管理して、同じあまりが2度出たら永遠に巡回するので解なしとする実装をしたけど計算が爆発してしまった。（それはそう）<br>
+中国余剰定理名前しか知らなかったので要復習。</p>
+<h2 id="まとめ">まとめ</h2>
+<p>D問題をひと目見て貪欲だと判断出来たのでヨシ！<br>
+欲を言うともう少し早く解きたかった。<br>
+あとACLに含まれてるアルゴリズムは一通り勉強しようと思いましたん。</p>
+]]></content></item><item><title>マイクラで4bitCPU</title><link>https://aoken7.github.io/posts/%E3%83%9E%E3%82%A4%E3%82%AF%E3%83%A9%E3%81%A74bitcpu/</link><pubDate>Mon, 14 Dec 2020 18:19:34 +0900</pubDate><guid>https://aoken7.github.io/posts/%E3%83%9E%E3%82%A4%E3%82%AF%E3%83%A9%E3%81%A74bitcpu/</guid><description>この記事は、大阪工業大学 Advent Calendar 2020の16日目の記事です。
 はじめに マインクラフトで4bitCPUを作りました。
 実行できる命令はLDIとADDの2種類、レジスタは2個、命令メモリは8個、動作周波数は約0.5Hzです。扱える値は符号なし整数です。レジスタ幅が4bitでLDIのオペランドが2bitの即値を取ることが出来るので0~15（\(2^4\)）の範囲で0~3(\(2^2\))の加算を行うことが出来ます。
 4bitCPU
