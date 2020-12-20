@@ -7,7 +7,7 @@ D-Sum_of_difference あらかじめAに関して累積和をとっておけば�
 ソートすれば良いのに気づかずにだいぶ時間を使ってしまった。
 E-Throne 解けなかった。 modだろうとは思ったけど解法が思いつかなかった。
 一周ごとにあまりの値をsetで管理して、同じあまりが2度出たら永遠に巡回するので解なしとする実装をしたけど計算が爆発してしまった。（それはそう）
-中国余剰定理名前しか知らなかったので要復習。
+中国剰余定理名前しか知らなかったので要復習。
 まとめ D問題をひと目見て貪欲だと判断出来たのでヨシ！
 欲を言うともう少し早く解きたかった。
 あとACLに含まれてるアルゴリズムは一通り勉強しようと思いましたん。</description></item><item><title>マイクラで4bitCPU</title><link>https://aoken7.github.io/posts/%E3%83%9E%E3%82%A4%E3%82%AF%E3%83%A9%E3%81%A74bitcpu/</link><pubDate>Mon, 14 Dec 2020 18:19:34 +0900</pubDate><guid>https://aoken7.github.io/posts/%E3%83%9E%E3%82%A4%E3%82%AF%E3%83%A9%E3%81%A74bitcpu/</guid><description>この記事は、大阪工業大学 Advent Calendar 2020の16日目の記事です。
