@@ -21,14 +21,7 @@ E-Throne 解けなかった。 modだろうとは思ったけど解法が思い�
 今回作成した4bitCPUは命令長が4bitです。そのため、今回の設計ではオペランドに1bit、レジスタに1bit割り振りました。よって命令と汎用レジスタ数はそれぞれ2個（\(2^1\)）ずつとなっています。使用出来る命令はADDとLDIです。
 命令 命令機能 ADD Rdest Rdest &amp;lt;- R0 + R1 LDI Rdest, imm2 Rdest &amp;lt;- imm2 ADD命令はレジスタ同士を加算し、レジスタに書き戻します。オペコードは0で、オペランドに書き込み先レジスタ（Rdest）を指定します。普通のCPUであればRdestだけでなくRsrcも指定しますが今回はレジスタが2つしかないので省略しています。
 LDI命令は1~3の整数値をレジスタに書き込みます。オペコードが1でオペランドに書き込み先レジスタ（Rdest）と即値を取ります。即値は2bitなので1~3を指定することが出来ます。
-命令 バイナリ表記 ADD R0 0 0 X X LDI R1, 2 1 1 1 0 命令の表記例です。Xは未使用を表します。</description></item><item><title>このブログについて</title><link>https://aoken7.github.io/posts/%E3%81%93%E3%81%AE%E3%83%96%E3%83%AD%E3%82%B0%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link><pubDate>Mon, 14 Dec 2020 12:00:00 +0900</pubDate><guid>https://aoken7.github.io/posts/%E3%81%93%E3%81%AE%E3%83%96%E3%83%AD%E3%82%B0%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</guid><description>はじめに あおけんと申します。2020年12月現在情報系の大学で学部生をしています。 趣味としてAtCoderを少しやってますがこれと言ってぱっとしない人間です。
-文書を書くことに苦手意識が強く、記事を書いたことやブログを書いたことがほとんどないので拙い文章になってるかもしれません、読みにくかったらごめんなさい。
-経緯 説明が下手 記事を書こうと思った一番大きな理由は物事を説明するのが下手だからです。
-人間社会で生きていく上で説明が下手なのは致命的です。今後ゼミでの活動や、卒業論文、就職活動などなど色々な場面で自身の考えを言葉で表す機会があります。 そのため、記事の執筆を通して物事を言葉で説明する力を養おうというのです。
-知識の定着 記事を書く2つ目の理由です。学習においてアウトプットは重要です。競プロなのでアルゴリズムを学んでも頭の中でなんとなく理解している事が多く、定着していないのではないかと思っています。そのため、記事としてアウトプットすることで知識の定着を図ろうと思います。
-このブログの技術的なこと このサイトは静的サイトジェネレータのHugoで作成しておりGitHubにホスティングすることで公開しています。Hugoは記事をMarkdownで記述することができ、ビルドするとHTMLファイルを生成してくれます。
-また様々なテーマが公開されており簡単にリッチなウェブサイトを作成できます。
-Hugo Themes ビルドに関してはGitHub Actionを利用することでGitHubに変更をコミットするだけで自動でビルドしデプロイしてくれます。</description></item><item><title>About Aoken</title><link>https://aoken7.github.io/about/</link><pubDate>Fri, 11 Dec 2020 00:00:00 +0000</pubDate><guid>https://aoken7.github.io/about/</guid><description>B3 大阪工業大学情報科学部 自然言語処理研 AtCoder茶色 応用情報技術者所持 最近はAtCoderが楽しいです、低レイヤ、機械学習にも興味があります。</description></item><item><title>OitTimeTable</title><link>https://aoken7.github.io/products/oit-time-table/</link><pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate><guid>https://aoken7.github.io/products/oit-time-table/</guid><description> figure-normal (without any classes)
+命令 バイナリ表記 ADD R0 0 0 X X LDI R1, 2 1 1 1 0 命令の表記例です。Xは未使用を表します。</description></item><item><title>About Aoken</title><link>https://aoken7.github.io/about/</link><pubDate>Fri, 11 Dec 2020 00:00:00 +0000</pubDate><guid>https://aoken7.github.io/about/</guid><description>B3 大阪工業大学情報科学部 自然言語処理研 AtCoder茶色 応用情報技術者所持 最近はAtCoderが楽しいです、低レイヤ、機械学習にも興味があります。</description></item><item><title>OitTimeTable</title><link>https://aoken7.github.io/products/oit-time-table/</link><pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate><guid>https://aoken7.github.io/products/oit-time-table/</guid><description> figure-normal (without any classes)
 OITものづくりアイデアコンテストに提出した時間割Androidアプリです。
 基本的な時間割登録機能に加えてタスク管理機能を組み込んでいます。 また、大阪工業大学情報科学部向けにシラバス検索機能やバス時刻表を組み込んでいます。
 開発にはKotlinを使用しました。
