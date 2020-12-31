@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Aoken's Note</title><link>https://aoken7.github.io/</link><description>Recent content on Aoken's Note</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 20 Dec 2020 00:04:50 +0900</lastBuildDate><atom:link href="https://aoken7.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>ABC186</title><link>https://aoken7.github.io/posts/abc186/</link><pubDate>Sun, 20 Dec 2020 00:04:50 +0900</pubDate><guid>https://aoken7.github.io/posts/abc186/</guid><description>A-Brick NをWで割るだけ。少数は切り捨てる。
-B-Blocks_on_Grid 一番小さい値ですべての値を引いた合計が答え。
-pythonでやると簡単にできそう。
-C-Unlucky_7 c++ではstd::octを使うと8進数に変換出来るらしい。調べて知った。
-1からNまで7を含むかを判定すればいい。
-D-Sum_of_difference あらかじめAに関して累積和をとっておけばいい。
-ソートすれば良いのに気づかずにだいぶ時間を使ってしまった。
-E-Throne 解けなかった。 modだろうとは思ったけど解法が思いつかなかった。
-一周ごとにあまりの値をsetで管理して、同じあまりが2度出たら永遠に巡回するので解なしとする実装をしたけど計算が爆発してしまった。（それはそう）
-中国剰余定理名前しか知らなかったので要復習。
-まとめ D問題をひと目見て貪欲だと判断出来たのでヨシ！
-欲を言うともう少し早く解きたかった。
-あとACLに含まれてるアルゴリズムは一通り勉強しようと思いましたん。</description></item><item><title>マイクラで4bitCPU</title><link>https://aoken7.github.io/posts/%E3%83%9E%E3%82%A4%E3%82%AF%E3%83%A9%E3%81%A74bitcpu/</link><pubDate>Mon, 14 Dec 2020 18:19:34 +0900</pubDate><guid>https://aoken7.github.io/posts/%E3%83%9E%E3%82%A4%E3%82%AF%E3%83%A9%E3%81%A74bitcpu/</guid><description>この記事は、大阪工業大学 Advent Calendar 2020の16日目の記事です。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ほげほげほげ</title><link>https://aoken7.github.io/</link><description>Recent content on ほげほげほげ</description><generator>Hugo -- gohugo.io</generator><language>jp</language><lastBuildDate>Mon, 14 Dec 2020 18:19:34 +0900</lastBuildDate><atom:link href="https://aoken7.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>マイクラで4bitCPU</title><link>https://aoken7.github.io/posts/%E3%83%9E%E3%82%A4%E3%82%AF%E3%83%A9%E3%81%A74bitcpu/</link><pubDate>Mon, 14 Dec 2020 18:19:34 +0900</pubDate><guid>https://aoken7.github.io/posts/%E3%83%9E%E3%82%A4%E3%82%AF%E3%83%A9%E3%81%A74bitcpu/</guid><description>この記事は、大阪工業大学 Advent Calendar 2020の16日目の記事です。
 はじめに マインクラフトで4bitCPUを作りました。
 実行できる命令はLDIとADDの2種類、レジスタは2個、命令メモリは8個、動作周波数は約0.5Hzです。扱える値は符号なし整数です。レジスタ幅が4bitでLDIのオペランドが2bitの即値を取ることが出来るので0~15（\(2^4\)）の範囲で0~3(\(2^2\))の加算を行うことが出来ます。
 4bitCPU
@@ -21,8 +9,4 @@ E-Throne 解けなかった。 modだろうとは思ったけど解法が思い�
 今回作成した4bitCPUは命令長が4bitです。そのため、今回の設計ではオペランドに1bit、レジスタに1bit割り振りました。よって命令と汎用レジスタ数はそれぞれ2個（\(2^1\)）ずつとなっています。使用出来る命令はADDとLDIです。
 命令 命令機能 ADD Rdest Rdest &amp;lt;- R0 + R1 LDI Rdest, imm2 Rdest &amp;lt;- imm2 ADD命令はレジスタ同士を加算し、レジスタに書き戻します。オペコードは0で、オペランドに書き込み先レジスタ（Rdest）を指定します。普通のCPUであればRdestだけでなくRsrcも指定しますが今回はレジスタが2つしかないので省略しています。
 LDI命令は1~3の整数値をレジスタに書き込みます。オペコードが1でオペランドに書き込み先レジスタ（Rdest）と即値を取ります。即値は2bitなので1~3を指定することが出来ます。
-命令 バイナリ表記 ADD R0 0 0 X X LDI R1, 2 1 1 1 0 命令の表記例です。Xは未使用を表します。</description></item><item><title>About Aoken</title><link>https://aoken7.github.io/about/</link><pubDate>Fri, 11 Dec 2020 00:00:00 +0000</pubDate><guid>https://aoken7.github.io/about/</guid><description>B3 大阪工業大学情報科学部 自然言語処理研 AtCoder茶色 応用情報技術者所持 最近はAtCoderが楽しいです、低レイヤ、機械学習にも興味があります。</description></item><item><title>OitTimeTable</title><link>https://aoken7.github.io/products/oit-time-table/</link><pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate><guid>https://aoken7.github.io/products/oit-time-table/</guid><description> figure-normal (without any classes)
-OITものづくりアイデアコンテストに提出した時間割Androidアプリです。
-基本的な時間割登録機能に加えてタスク管理機能を組み込んでいます。 また、大阪工業大学情報科学部向けにシラバス検索機能やバス時刻表を組み込んでいます。
-開発にはKotlinを使用しました。
-PlayStore Github</description></item></channel></rss>
+命令 バイナリ表記 ADD R0 0 0 X X LDI R1, 2 1 1 1 0 命令の表記例です。Xは未使用を表します。</description></item><item><title>About Aoken</title><link>https://aoken7.github.io/about/</link><pubDate>Fri, 11 Dec 2020 00:00:00 +0000</pubDate><guid>https://aoken7.github.io/about/</guid><description>B3 大阪工業大学情報科学部 自然言語処理研 AtCoder茶色 応用情報技術者所持 最近はAtCoderが楽しいです、低レイヤ、機械学習にも興味があります。</description></item></channel></rss>
