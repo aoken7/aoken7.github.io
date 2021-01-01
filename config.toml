@@ -1,25 +1,24 @@
 baseURL = "https://example.com"
-title = "Example Site"
+title = "Hoge Site"
 theme = "erblog"
 paginate = 3
-languageCode = "en"
-DefaultContentLanguage = "en"
+languageCode = "ja"
+DefaultContentLanguage = "ja"
 enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"
 
 [params]
-    author = "Steve Francia"
+    author = "Aoken"
     badge = "orange"
     quote = "red"
-    notice = "Hello, world. This is a notification."
+    #notice = "Hello, world. This is a notification."
     notice_color = "red"
     index_posts_num = 5
     google_search = true
     # logo = "//blog.ertuil.top/avater.png"
+    portrait = "/images/avater.jpeg"
     bio = """
-    <p> This is BIO. You can write something here. </p>
-    <br />
-    <p>Also all html tags such as <a href="https://github.com/ertuil/erblog">link</a> are a good here.</p>
+    <p> Hoge hoge hoge. </p>
     """
     # copyright = "Copyright © 2008–2019, Steve Francia and the Hugo Authors; all rights reserved."
 
@@ -54,21 +53,21 @@ tag = "tags"
 series = "series"
 
 [[menu.icon]]
-    url = "mailto:username@mail.com"
-    name = "envelope-o"
-    weight = 1
-
-[[menu.icon]]
-    url = "https://github.com/username/"
-    name = "github"
-    weight = 1
-
-[[menu.icon]]
-    url = "https://twitter.com/username"
+    url = "https://twitter.com/_aoken"
     name = "twitter"
     weight = 1
 
 [[menu.icon]]
-    url = "https://www.instagram.com/username/"
-    name = "instagram"
-    weight = 1
+    url = "https://github.com/aoken7/"
+    name = "github"
+    weight = 2
+
+[[menu.icon]]
+    url = "https://atcoder.jp/users/aoken_7"
+    name = "link"
+    weight = 3
+
+[[menu.icon]]
+    url = "https://www.amazon.jp/hz/wishlist/ls/H3GA3NYGLU87?ref_=wl_share"
+    name = "amazon"
+    weight = 4
