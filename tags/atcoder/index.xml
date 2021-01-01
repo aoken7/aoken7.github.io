@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>atcoder on Hoge Site</title><link>https://example.com/tags/atcoder/</link><description>Recent content in atcoder on Hoge Site</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Sun, 20 Dec 2020 00:04:50 +0900</lastBuildDate><atom:link href="https://example.com/tags/atcoder/index.xml" rel="self" type="application/rss+xml"/><item><title>ABC186</title><link>https://example.com/post/abc186/</link><pubDate>Sun, 20 Dec 2020 00:04:50 +0900</pubDate><guid>https://example.com/post/abc186/</guid><description>A-Brick NをWで割るだけ。少数は切り捨てる。
+B-Blocks_on_Grid 一番小さい値ですべての値を引いた合計が答え。
+pythonでやると簡単にできそう。
+C-Unlucky_7 c++ではstd::octを使うと8進数に変換出来るらしい。調べて知った。
+1からNまで7を含むかを判定すればいい。
+D-Sum_of_difference あらかじめAに関して累積和をとっておけばいい。
+ソートすれば良いのに気づかずにだいぶ時間を使ってしまった。
+E-Throne 解けなかった。 modだろうとは思ったけど解法が思いつかなかった。
+一周ごとにあまりの値をsetで管理して、同じあまりが2度出たら永遠に巡回するので解なしとする実装をしたけど計算が爆発してしまった。（それはそう）
+中国剰余定理名前しか知らなかったので要復習。
+まとめ D問題をひと目見て貪欲だと判断出来たのでヨシ！
+欲を言うともう少し早く解きたかった。
+あとACLに含まれてるアルゴリズムは一通り勉強しようと思いましたん。</description></item></channel></rss>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hoge Site</title><link>https://example.com/</link><description>Recent content on Hoge Site</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Sun, 20 Dec 2020 00:04:50 +0900</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml"/><item><title>ABC186</title><link>https://example.com/post/abc186/</link><pubDate>Sun, 20 Dec 2020 00:04:50 +0900</pubDate><guid>https://example.com/post/abc186/</guid><description>A-Brick NをWで割るだけ。少数は切り捨てる。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Hoge Site</title><link>https://example.com/post/</link><description>Recent content in Posts on Hoge Site</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Sun, 20 Dec 2020 00:04:50 +0900</lastBuildDate><atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml"/><item><title>ABC186</title><link>https://example.com/post/abc186/</link><pubDate>Sun, 20 Dec 2020 00:04:50 +0900</pubDate><guid>https://example.com/post/abc186/</guid><description>A-Brick NをWで割るだけ。少数は切り捨てる。
 B-Blocks_on_Grid 一番小さい値ですべての値を引いた合計が答え。
 pythonでやると簡単にできそう。
 C-Unlucky_7 c++ではstd::octを使うと8進数に変換出来るらしい。調べて知った。
@@ -21,8 +21,4 @@ E-Throne 解けなかった。 modだろうとは思ったけど解法が思い�
 今回作成した4bitCPUは命令長が4bitです。そのため、今回の設計ではオペランドに1bit、レジスタに1bit割り振りました。よって命令と汎用レジスタ数はそれぞれ2個（\(2^1\)）ずつとなっています。使用出来る命令はADDとLDIです。
 命令 命令機能 ADD Rdest Rdest &amp;lt;- R0 + R1 LDI Rdest, imm2 Rdest &amp;lt;- imm2 ADD命令はレジスタ同士を加算し、レジスタに書き戻します。オペコードは0で、オペランドに書き込み先レジスタ（Rdest）を指定します。普通のCPUであればRdestだけでなくRsrcも指定しますが今回はレジスタが2つしかないので省略しています。
 LDI命令は1~3の整数値をレジスタに書き込みます。オペコードが1でオペランドに書き込み先レジスタ（Rdest）と即値を取ります。即値は2bitなので1~3を指定することが出来ます。
-命令 バイナリ表記 ADD R0 0 0 X X LDI R1, 2 1 1 1 0 命令の表記例です。Xは未使用を表します。</description></item><item><title>About Aoken</title><link>https://example.com/about/</link><pubDate>Fri, 11 Dec 2020 00:00:00 +0000</pubDate><guid>https://example.com/about/</guid><description>B3 大阪工業大学情報科学部 自然言語処理研 AtCoder茶色 応用情報技術者所持 最近はAtCoderが楽しいです、低レイヤ、機械学習にも興味があります。</description></item><item><title>OitTimeTable</title><link>https://example.com/products/oit-time-table/</link><pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate><guid>https://example.com/products/oit-time-table/</guid><description> figure-normal (without any classes)
-OITものづくりアイデアコンテストに提出した時間割Androidアプリです。
-基本的な時間割登録機能に加えてタスク管理機能を組み込んでいます。 また、大阪工業大学情報科学部向けにシラバス検索機能やバス時刻表を組み込んでいます。
-開発にはKotlinを使用しました。
-PlayStore Github</description></item></channel></rss>
+命令 バイナリ表記 ADD R0 0 0 X X LDI R1, 2 1 1 1 0 命令の表記例です。Xは未使用を表します。</description></item></channel></rss>
