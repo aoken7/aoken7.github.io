@@ -1,5 +1,5 @@
 baseURL = "https://example.com"
-title = "Hoge Site"
+title = "incomplete"
 theme = "erblog"
 paginate = 3
 languageCode = "ja"
@@ -15,19 +15,26 @@ footnoteReturnLinkContents = "^"
     notice_color = "red"
     index_posts_num = 5
     google_search = true
-    # logo = "//blog.ertuil.top/avater.png"
+    logo = "/images/favicon.png"
     portrait = "/images/avater.jpeg"
     bio = """
-    <p> Hoge hoge hoge. </p>
+    <ul>
+        <li>・B3</li>
+        <li>・大阪工業大学情報科学部</li>
+        <li>・自然言語処理研</li>
+        <li>・AtCoder茶色</li>
+        <li>・応用情報技術者</li>
+    </ul>
+    
     """
     # copyright = "Copyright © 2008–2019, Steve Francia and the Hugo Authors; all rights reserved."
 
 
-[[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 10
+#[[menu.main]]
+#    identifier = "about"
+#    name = "About"
+#    url = "/about/"
+#    weight = 10
 
 # [[menu.main]]
 #     identifier = "zone"
@@ -41,16 +48,16 @@ footnoteReturnLinkContents = "^"
     url = "/"
     weight = 1
 
-[[menu.footer]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 2
+#[[menu.footer]]
+#    identifier = "about"
+#    name = "About"
+#    url = "/about/"
+#    weight = 2
 
 [taxonomies]
 category = "categories"
 tag = "tags"
-series = "series"
+#series = "series"
 
 [[menu.icon]]
     url = "https://twitter.com/_aoken"
