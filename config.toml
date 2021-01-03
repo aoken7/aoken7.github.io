@@ -15,7 +15,7 @@ footnoteReturnLinkContents = "^"
     notice_color = "red"
     index_posts_num = 5
     google_search = true
-    logo = "/images/favicon.png"
+    logo = "/images/icon.png"
     portrait = "/images/avater.jpeg"
     bio = """
     <ul>
