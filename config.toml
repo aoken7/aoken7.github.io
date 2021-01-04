@@ -38,7 +38,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 
   # Metadata mostly used in document's head
   # description = ""
-  images = ["/images/aokenIcon.jpeg]
+  images = ["/images/GOP.png"]
   themeColor = "#494f5c"
 
   homeSubtitle = "帯に短し襷に長し"
