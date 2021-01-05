@@ -3,8 +3,10 @@ title: "マイクラで4bitCPU"
 date: 2020-12-14T18:19:34+09:00
 draft: false
 toc: false
-image: "/images/aokenIcon.jpeg"
-tags: 
+image: "ogp/マイクラで4bitCPU.png"
+tags: ["cpu"]
+author: "Aoken"
+categories: ["other"]
 ---
 
 この記事は、大阪工業大学 [Advent Calendar](https://adventar.org/calendars/5332) 2020の16日目の記事です。

@@ -1,7 +1,11 @@
-+++
-title = "OitTimeTable"
-date = "2020-04-09"
-+++
+---
+title: "OitTimeTable"
+date: 2020-10-20T00:04:50+09:00
+categories: ["product"]
+author: "Aoken"
+tags: ["Kotlin"]
+image: "ogp/OitTimeTable.png"
+---
 
 {{< figure src="/images/timetable.jpg" alt="image" width=""  caption="figure-normal (without any classes)" >}}
 
